@@ -1,0 +1,18 @@
+.application-header{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+}
+
+
+.application-header > *:first-child,
+.application-header > *:last-child {
+  flex: 1;
+}
+.application-header > *:first-child {
+  text-align: left;
+}
+
+.application-header > *:last-child {
+  text-align: end;
+}
