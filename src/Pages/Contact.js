@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contact (){
+function Contact(){
     return(
         <div>
             <h1> Boisdjglsdklv</h1>

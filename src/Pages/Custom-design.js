@@ -1,6 +1,6 @@
 import React from "react";
 
-function Kids(){
+function CustomDesign(){
     return(
         <div>
             <h1> Boisdjglsdklv</h1>
@@ -8,4 +8,4 @@ function Kids(){
     )
 }
 
-export default Kids
+export default CustomDesign
