@@ -3,7 +3,7 @@ import React from "react";
 function Women(){
     return(
         <div>
-            <h1> Boisdjglsdklv</h1>
+            <h1></h1>
         </div>
     )
 }
