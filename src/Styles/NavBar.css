@@ -6,16 +6,24 @@
     flex-direction: row;
 }
 
+.Navbar .leftSide #close {
+    padding-left: 5px;
+}
+
 .Navbar .leftSide {
+    
     flex: 50%;
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 150px;
+    padding-left: 5px;
 }
 
-.Navbar .leftSide img {
+.leftSide img {
     width: 125px;
+    display: flex;
+    flex-direction: row;
+    float: left;
 }
   
 .Navbar .rightSide {
@@ -39,33 +47,45 @@
     cursor: pointer;
 }
   
-.Navbar .rightSide svg {
-    font-size: 40px;
+.rightSide svg #open {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 10px;
 }
   
 .Navbar #open {
-    padding-left: 50px;
+    padding-left: 0px;
 }
 
 .Navbar #open .hiddenLinks {
-    display: inherit;
-    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    width: 50px;
 }
   
+
+.hiddenLinks {
+    display: flex;
+
+    flex: 1;
+    
+    flex-direction: row;
+}
 .Navbar #close .hiddenLinks {
     display: none;
 }
-  
+
 .Navbar #open a {
     width: 70px;
     margin: 5px;
 }
 @media only screen and (max-width: 900px) {
 .Navbar .rightSide a {
-    width: 70px;
+    width: fit-content;
 }
 .Navbar .leftSide {
-    padding-left: 50px;
+    padding-left: 10px;
 }
 }
   
@@ -92,4 +112,20 @@
 .hiddenLinks {
     display: none;
 }
+}
+.rightSide #open{
+    position: relative;
+}
+.ReorderBut #open{
+    position: absolute;
+    width: 5%;
+    
+}
+
+#open.leftSide img {
+    width: 0%;
+}
+
+.css-i4bv87-MuiSvgIcon-root #open{
+    padding-left: 10em;
 }

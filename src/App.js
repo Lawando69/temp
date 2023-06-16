@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Home from './Pages/Home.js'
 import Offers from './Pages/Offers'
