@@ -11,7 +11,6 @@
 }
 
 .Navbar .leftSide {
-    
     flex: 50%;
     height: 100%;
     display: flex;
@@ -60,8 +59,8 @@
 .Navbar #open .hiddenLinks {
     display: flex;
     flex-direction: row;
-    margin-left: 15px;
-    width: 50px;
+    margin-left: 10px;
+    width: 450px;
 }
   
 
@@ -78,14 +77,14 @@
 
 .Navbar #open a {
     width: 70px;
-    margin: 5px;
+    margin: 7px;
 }
 @media only screen and (max-width: 900px) {
 .Navbar .rightSide a {
     width: fit-content;
 }
 .Navbar .leftSide {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 }
   
@@ -121,6 +120,7 @@
     width: 5%;
     
 }
+
 
 #open.leftSide img {
     width: 0%;

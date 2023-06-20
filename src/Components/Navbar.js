@@ -31,7 +31,7 @@ function NavBar(){
                     <NavLink to="Men"> Men </NavLink>
                     <NavLink to="Women"> Women </NavLink>
                     <NavLink to="Kids"> Kids </NavLink>
-                    <NavLink to="Custom-design"> Custom design</NavLink>
+                    <NavLink to="Sport"> Sport </NavLink>
                     <NavLink to="About"> About </NavLink>
                     <NavLink to="Contact"> Contact </NavLink>
                 </div>
@@ -42,12 +42,10 @@ function NavBar(){
                 <NavLink to="Men"> Men </NavLink>
                 <NavLink to="Women"> Women </NavLink>
                 <NavLink to="Kids"> Kids </NavLink>
-                <NavLink to="Custom-design"> Custom design</NavLink>
+                <NavLink to="Sport"> Sport </NavLink>
                 <NavLink to="About"> About </NavLink>
                 <NavLink to="Contact"> Contact </NavLink>
-                <div className="Search.Bar">{/*Search_bar*/}
-                aslfkjasdbfg</div>
-                <button className="ReorderBut" id={openLinks ? "open" : "close"} onClick={reOrderButton}>
+                <button className="ReorderBut" onClick={reOrderButton}>
                     <ReorderIcon />
                 </button>
             </div>
