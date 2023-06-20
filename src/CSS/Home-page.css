@@ -1,10 +1,64 @@
 .Home {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.Home-banner {
-    width: 100%;
-    height: 160px;
+
+.HomeList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.HomeItem {
+  border-radius: 15px;
+  width: 600px;
+  height: 720px;
+  margin: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  right: 255px;
+  top: 55px;
+}
+.HomeItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.HomeItem div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HomeItem a,
+.HomeItem h3 {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .HomeList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .HomeList {
+    grid-template-columns: 1fr;
+  }
+}
+.Home img {
+  position: relative;
+  width: 100%;
+  height: 180px;
 }
