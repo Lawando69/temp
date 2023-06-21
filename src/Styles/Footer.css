@@ -3,12 +3,11 @@
     height: 200px;
     background-color: black;
     display: flex;
-    justify-content: end;
+    justify-self: end;
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
-    position: absolute;
-    top: 200px
+    position: fixed;
 }
 
 .SocialMedia svg {
