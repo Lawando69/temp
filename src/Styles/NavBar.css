@@ -28,10 +28,6 @@
     border-radius: 50px;
     
 }
-.leftSide img:hover{
-    border: 2px solid #00d1ff;
-    border-radius: 50px;
-}
   
 .Navbar .rightSide {
     flex: 50%;
@@ -60,7 +56,6 @@
 }
 
 .Navbar .rightSide button:hover{
-    background-color: gray;
     color: #00d1ff;
     cursor: pointer;
 }

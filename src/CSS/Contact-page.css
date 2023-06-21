@@ -38,7 +38,6 @@
     font-family: Rockwell;
     font-weight: 200;
     font-style: italic;
-    padding-left: 1%;
   }
   
   #User_email{
@@ -68,7 +67,13 @@
     width: 650px;
     height: 260px;
     font-size: 20px;
-    justify-content: top;
+  }
+  #message::placeholder{
+    color: black;
+    font-size: 20px;
+    font-family: Rockwell;
+    font-weight: 200;
+    font-style: italic;
   }
 
   .errorMessage {
@@ -79,19 +84,10 @@
     margin-bottom: 1%;
   }
   
-  #message::placeholder{
-    color: black;
-    font-size: 20px;
-    font-family: Rockwell;
-    font-weight: 200;
-    font-style: italic;
-    position: relative;
-    bottom: 112px
-  }
-
   #Submit{
     display: flex;
-    width: fit-content;
+    width: 655px;
+    height: 50px;
     margin-top: 1%;
     border: 2px solid black;
     border-radius: 50px;
@@ -101,6 +97,7 @@
     font-weight: 200;
     font-style: italic;
     justify-content: center;
+    text-align: center;
   }
   
   #Submit:hover{

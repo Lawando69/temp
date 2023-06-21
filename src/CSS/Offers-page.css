@@ -1,0 +1,107 @@
+.Offers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .OffersList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .OffersItem {
+    border-radius: 5px;
+    width: 55%;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgba(173, 173, 173, 0.2);
+    align-items: left;
+  }
+  
+  .OffersItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .OffersItem div {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .OffersItem h3,
+  .OffersItem a,
+  .OffersItem span {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .OffersItem a,
+  .OffersItem span {
+    margin: 5px;
+  }
+
+  .Offers h2{
+    font-size: 35px;
+    padding-bottom: 200px;
+    justify-content: center;
+  }
+
+  .Vouchers {
+    background-color: grey;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: center;
+    position: relative;
+    bottom: 150px;
+    
+  }
+
+  .Vouchers img {
+    width: 30%;
+    height: auto;
+  }
+
+  .OffersItem .original-price {
+    color: black;
+    text-decoration: line-through;
+    font-size: 12px;
+    letter-spacing: .8px;
+    position: relative;
+    left: 5px;
+  }
+  .OffersItem .discounted-price {
+    font-weight: bold;
+    color: red;
+    font-size: 15px;
+    letter-spacing: .8px;
+    line-height: 20px;
+    position: relative;
+    left: 4px;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .OffersList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .OffersList {
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,6 +1,6 @@
 import React from "react";
 
-function CustomDesign(){
+function Sport(){
     return(
         <div>
             <h1></h1>
@@ -8,4 +8,4 @@ function CustomDesign(){
     )
 }
 
-export default CustomDesign
+export default Sport

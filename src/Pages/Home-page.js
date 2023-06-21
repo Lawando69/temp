@@ -1,21 +1,20 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import banner from '../Assets/Home-banner.png'
-import '../CSS/Home-page.css'
+import banner from '../Assets/Offersbanner.png'
 import { HomeList } from '../ProductList/HomeList.js'
-import HomeItem from '../Components/HomeItem.js'
+import HomeItem from '../Items/HomeItem.js'
 import '../CSS/Home-page.css'
 
 function Home(){
 
     const Navigate = useNavigate()
 
-    const Sport = () => {
+    const Offers = () => {
         Navigate("/Sport")
     }
     return(
         <div className="Home">
-            <img src={banner} onClick={Sport} alt="Banner" />
+            <img src={banner} onClick={Offers} alt="Banner" />
             <div className="HomeList">
                {HomeList.map((menuItem, key) => {
                     return (

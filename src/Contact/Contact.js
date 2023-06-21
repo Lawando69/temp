@@ -9,11 +9,10 @@ const ContactForm = () => {
   } = useForm();
   
   const onSubmit = async (data) => {
-    const { name, email, subject, message } = data;
+    const { name, email, message } = data;
     
     console.log('Name: ', name);
     console.log('Email: ', email);
-    console.log('Subject: ', subject);
     console.log('Message: ', message);
   };
 
@@ -45,7 +44,7 @@ const ContactForm = () => {
                         pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                       })}
                       className='form-control formInput'
-                      placeholder='Email address'
+                      placeholder='Email'
                     ></input>
                     {errors.email && (
                       <span className='errorMessage'>Please enter a valid email address</span>
@@ -67,7 +66,7 @@ const ContactForm = () => {
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-                <button id='Submit' type='Submit'>
+                <button id='Submit' type='Submit' >
                   Submit
                 </button>
               </form>
