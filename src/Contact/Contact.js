@@ -52,6 +52,7 @@ const ContactForm = () => {
                     )}
                   </div>
                 </div>
+                
                 <div className='row formRow'>
                   <div className='col'>
                     <textarea id='message'
