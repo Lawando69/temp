@@ -54,7 +54,7 @@ const ContactForm = () => {
                 </div>
                 <div className='row formRow'>
                   <div className='col'>
-                    <input id='message'
+                    <textarea id='message'
                       rows={3}
                       name='message'
                       {...register('message', {
@@ -62,7 +62,7 @@ const ContactForm = () => {
                       })}
                       className='form-control formInput'
                       placeholder='Message'
-                    ></input>
+                    ></textarea>
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>

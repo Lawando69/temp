@@ -3,11 +3,11 @@
     height: 200px;
     background-color: black;
     display: flex;
-    justify-content: baseline;
+    justify-content: end;
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
-    position: relative;
+    position: absolute;
     top: 200px
 }
 
