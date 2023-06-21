@@ -1,0 +1,102 @@
+.Contact {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ContactForm{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+    font-family: Rockwell;
+    font-weight: 200;
+    font-style: italic;
+    display: flex;
+    margin-top: 50%;
+  }
+  
+  #Fullname{
+    display: flex;
+    width: 650PX;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+  justify-content: center;
+    margin-top: 1%;
+  }
+  
+  #Fullname::placeholder{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-family: Rockwell;
+    font-weight: 200;
+    font-style: italic;
+    padding-left: 1%;
+  }
+  
+  #User_email{
+    display: flex;
+    width: 650px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1%;
+    justify-content: center;
+  }
+  
+  #User_email::placeholder{
+    color: black;
+    font-size: 20px;
+    font-family: Rockwell;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  #message{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    width: 650px;
+    height: 260px;
+  }
+  
+  #message::placeholder{
+    color: black;
+    font-size: 30px;
+    font-family: Rockwell;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+  #Submit{
+    display: flex;
+    width: fit-content;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    font-size: 25px;
+    font-family: Rockwell;
+    font-weight: 200;
+    font-style: italic;
+  justify-content: center;
+  }
+  
+  #Submit:hover{
+    border: 2px solid #00D1FF;
+    border-radius: 50px;
+    color: #00D1FF;
+    background-color: #202020;
+    font-size: 25px;
+    font-family: Rockwell;
+    font-weight: 200;
+    font-style: italic;
+    cursor: pointer;
+  }

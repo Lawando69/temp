@@ -3,7 +3,7 @@
     height: 200px;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     flex-direction: column;
     padding-top: 10px;

@@ -1,13 +1,15 @@
 import React from "react";
+import ContactForm from "../Contact/Contact.js"
+import "../CSS/Contact-page.css"
 
-function Contact(){
+export default function Contact(){
     return(
-        <div>
-            <input/>
-            <input/>
-            <textarea/>
+        <div className="Contact">
+            <ContactForm/>
         </div>
-    )
-}
-
-export default Contact
+        )
+    }
+    
+     
+        
+            
