@@ -6,6 +6,7 @@ import Product05 from '../Assets/OffersList5.png';
 import Product06 from '../Assets/OffersList6.png';
 import Product07 from '../Assets/OffersList7.png';
 import Product08 from '../Assets/OffersList8.png';
+import Product09 from '../Assets/OffersList9.png';
 
 export const OffersList = [
     {
@@ -55,5 +56,11 @@ export const OffersList = [
         image: Product08,
         originprice: 23.00,
         price: 19.99
+    },
+    {
+        name: "Basic Lightwreight T-shirt",
+        image: Product09,
+        originprice: 12.99,
+        price: 9.99
     }
 ]

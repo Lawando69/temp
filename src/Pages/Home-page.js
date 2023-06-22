@@ -10,7 +10,7 @@ function Home(){
     const Navigate = useNavigate()
 
     const Offers = () => {
-        Navigate("/Sport")
+        Navigate("/Offers")
     }
     return(
         <div className="Home">
