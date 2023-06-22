@@ -1,9 +1,9 @@
 import React from "react";
-import '../CSS/Men-page.css';
+import '../CSS/Kids-page.css';
 
-function MenItem({ image, name, price}) {
+function KidItem({ image, name, price}) {
     return(
-        <div className="WomenItem">
+        <div className="kidItem">
             <div style={{ backgroundImage: `url(${image})` }}> </div>
             <h3> {name} </h3>
             <a class="price"> £{price} </a>
@@ -11,4 +11,4 @@ function MenItem({ image, name, price}) {
     )
 }
 
-export default MenItem
+export default KidItem

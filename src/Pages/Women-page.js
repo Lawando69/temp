@@ -22,7 +22,6 @@ function Women(){
                             key={key}
                             image={menuItem.image}
                             name={menuItem.name}
-                            originprice={menuItem.originprice}
                             price={menuItem.price}
                         />
                     );

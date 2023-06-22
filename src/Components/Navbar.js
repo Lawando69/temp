@@ -19,10 +19,13 @@ function NavBar(){
     const Home = () => {
         Navigate("/")
     }
-
     return(
         
         <div className="Navbar">
+            <div className="top-side">
+                <p> CALL US: 01234567895</p>
+
+            </div>
             <div className="leftSide" id={openLinks ? "open" : "close"}>
                 <img src={logo} onClick={Home} alt="Logo"/>
                 <div className="hiddenLinks">
@@ -51,6 +54,7 @@ function NavBar(){
             </div>
         </div>
     );
+
 }
 
 export default NavBar
