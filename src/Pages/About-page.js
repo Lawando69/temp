@@ -13,10 +13,18 @@ function About(){
                 </p>
             </div>
             <div className="Bottom-part">
+                
                 <img className="First_image" src={Product01} alt="Image" />
                 <img className="Second_image" src={Product02} alt="Image" />
-            </div>
 
+            </div>
+            <div className="FeedbackSec">
+                    <button className="FeedbackButton">
+                    <a href="https://forms.office.com/e/rt6ztLvafS">
+                        Leave a Feedback
+                    </a>
+                </button>
+            </div>
         </div>
     )
 }

@@ -28,14 +28,53 @@
 }
 
 .Bottom-part {
+    display: flex;
     margin-top: 50px;
     width: 100%;
     height: auto;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
-.Second_image {
-    padding-left: 1327px;
+
+.Bottom-part img{
+    margin: 5%;
+    
 }
+
 .First_image {
     width: 500px;
 }
+
+.FeedbackSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.FeedbackButton a{
+    color:  rgb(2, 2, 2);
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.FeedbackButton{
+    cursor: pointer;
+    border-radius: 15px ;
+    width: 20%;
+    height: 200%;
+    border: 2px solid black;
+}
+
+.FeedbackSec :hover{
+    border: 2px solid #00D1FF;
+    background-color: rgb(190, 38, 38);
+
+}
+.FeedbackButton :hover{
+    border: 2px solid transparent;
+}
+
