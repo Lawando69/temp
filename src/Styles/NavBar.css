@@ -64,8 +64,8 @@
     margin: 20px;
 }
   .Navbar a:hover{
-      color: #00d1ff;
       cursor: pointer;
+      color: rgb(0, 238, 255);
     }
   
   
