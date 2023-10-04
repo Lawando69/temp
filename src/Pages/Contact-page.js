@@ -8,8 +8,8 @@ export default function Contact(){
         <div className="Contact">
             <div className="Contactform">
                 <div>
-                    <h1 className="Time-header"> Opening hours: </h1>
                     <div className="Opening-hours">
+                    <h1> Opening hours: </h1>
                         <p>
                             Mon - Fri  8 am - 8 pm
                         </p>
@@ -20,8 +20,8 @@ export default function Contact(){
                             Sun 11 am - 5 pm
                         </p>
                     </div>
-                    <h1 className="Address-header"> Address: </h1>
                     <div className="Address">
+                    <h1> Address: </h1>
                         <p>
                             123 high way,
                         </p>
